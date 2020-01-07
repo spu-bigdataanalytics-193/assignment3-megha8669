@@ -1,6 +1,6 @@
 In this assignment, I worked on Map Reduce Algorithm. We have a dataset of size 1.6 GB. The data consists of 120 million of records for all commercial flights within the USA from october 1987 to april 2008.
 
-I calculate the number of flights for using map reduce algorithm. First, I downloaded the data and i used lopping each record and and counting each airline's flight. 
+I calculate the number of flights for using map reduce algorithm. First, I downloaded the data and i used lopping each record and counting each airline's flight. 
 
 Map reduce algorithm requires divide the task in 3 different pieces.
 
