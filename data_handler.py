@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+
+
 import os
 import glob
 import shutil
@@ -20,9 +23,6 @@ def download_handler(file_path, data_url):
         if r.status == 200:
             with open(file_path, 'wb') as w:
                 shutil.copyfileobj(r, w)
-        else:
-            print('internet connection error.')
-
 
 def check_dataset():
     file_list = []
